@@ -9,11 +9,15 @@ body
     padding: 10px;
     margin: 10px;
     background: green;
+    border-radius: 50000px;
 }
 .assignment img 
 {
     width:200px;
-    padding: 10px;
+    margin: 5px;
+}
+.assignment img:hover{
+    border: 5px solid rgb(0, 255, 213);
 }
 h1
 {
@@ -26,4 +30,11 @@ h2{
 p
 {
     color: yellow;
+}
+a {
+    text-decoration: none;
+    color: yellow;
+}
+a:hover {
+    color: pink;
 }
